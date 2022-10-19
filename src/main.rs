@@ -6,7 +6,6 @@ fn main() -> anyhow::Result<()> {
     esp_idf_sys::link_patches();
 
     println!("Hello, world!");
-    println!("Salaam aleikum, world bruh!");
 
     Ok(())
 }
